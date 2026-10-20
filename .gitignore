@@ -1,0 +1,10 @@
+node_modules/
+.DS_Store
+*.log
+
+# Project-scoped skill installs (kept in each worktree, not committed)
+.agents/
+.opencode/
+.claude/
+.impeccable/
+.taste-skill/
