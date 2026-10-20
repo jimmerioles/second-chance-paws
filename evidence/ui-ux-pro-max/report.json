@@ -1,0 +1,149 @@
+{
+  "label": "ui-ux-pro-max",
+  "siteDir": "/home/jimmerioles/Work/tries/2026-10-20-top-design-skill-comparison.worktrees/ui-ux-pro-max/site",
+  "capturedAt": "2026-10-20T05:09:00.245Z",
+  "consoleErrors": [],
+  "pageErrors": [],
+  "failedRequests": [],
+  "metrics": {
+    "initialVisibleCards": [
+      "mochi",
+      "biscuit",
+      "pepper",
+      "otis",
+      "juniper",
+      "maple"
+    ],
+    "horizontalOverflowDesktop": false,
+    "h1": [
+      "Every puppy deserves a soft landing."
+    ],
+    "headings": [
+      "H1: Every puppy deserves a soft landing.",
+      "H2: Small paws. Big personalities.",
+      "H2: From application to homecoming.",
+      "H3: Apply",
+      "H3: Meet",
+      "H3: Bring them home",
+      "H2: Puppy socials & meetups",
+      "H3: Puppy Social",
+      "H3: Meet & Greet",
+      "H3: Foster Info Session",
+      "H2: Fostering is free. The payoff is enormous.",
+      "H3: What your gift covers",
+      "H2: Get the occasional puppy update.",
+      "H2: Puppy details"
+    ],
+    "images": [
+      {
+        "src": "../assets/puppies/hero.jpg",
+        "alt": "A golden retriever puppy resting its front paws on a wooden ledge.",
+        "naturalWidth": 1600
+      },
+      {
+        "src": "../assets/puppies/mochi.jpg",
+        "alt": "Mochi, a red Shiba Inu puppy, lying on a white duvet beside a blue ball.",
+        "naturalWidth": 800
+      },
+      {
+        "src": "../assets/puppies/biscuit.jpg",
+        "alt": "Biscuit, a cream golden retriever puppy, resting on a fleece blanket.",
+        "naturalWidth": 800
+      },
+      {
+        "src": "../assets/puppies/pepper.jpg",
+        "alt": "Pepper, a blue merle border collie puppy, carrying a bone across a lawn.",
+        "naturalWidth": 800
+      },
+      {
+        "src": "../assets/puppies/otis.jpg",
+        "alt": "Otis, a grey Great Dane puppy, standing on a tiled floor.",
+        "naturalWidth": 800
+      },
+      {
+        "src": "../assets/puppies/juniper.jpg",
+        "alt": "Juniper, a black, white, and tan Australian Shepherd puppy, standing on a wooden deck.",
+        "naturalWidth": 800
+      },
+      {
+        "src": "../assets/puppies/maple.jpg",
+        "alt": "Maple, a blue merle Australian Shepherd puppy in a sweater, sitting on a beach.",
+        "naturalWidth": 800
+      },
+      {
+        "src": "../assets/puppies/mochi.jpg",
+        "alt": "",
+        "naturalWidth": 800
+      }
+    ],
+    "fonts": [
+      "Nunito, \"Segoe UI\", system-ui, -apple-system, sans-serif",
+      "Fredoka, \"Trebuchet MS\", \"Segoe UI\", sans-serif"
+    ],
+    "filterHighEnergyClicked": true,
+    "highEnergyVisible": [
+      "biscuit",
+      "pepper",
+      "juniper"
+    ],
+    "highEnergyPressed": "true",
+    "filterBondedClicked": true,
+    "bondedVisible": [
+      "juniper",
+      "maple"
+    ],
+    "detailOpenAction": "clicked",
+    "detailOpened": true,
+    "detailAriaModal": "true",
+    "detailFocusInside": true,
+    "detailBodyLocked": true,
+    "detailClosedByEscape": true,
+    "focusReturnedToCard": "mochi",
+    "newsletterInvalidAction": "submitted",
+    "newsletterInvalidError": "Enter a valid email address, like name@example.com.",
+    "newsletterInvalidPrevented": true,
+    "newsletterValidAction": "submitted",
+    "newsletterSuccess": "You're on the list. Watch your inbox for wet noses.",
+    "horizontalOverflowMobile": false,
+    "mobileScrollWidth": 390,
+    "mobileInnerWidth": 390,
+    "source": {
+      "index.html": {
+        "bytes": 25204,
+        "lines": 467
+      },
+      "styles.css": {
+        "bytes": 33721,
+        "lines": 1875
+      },
+      "script.js": {
+        "bytes": 11673,
+        "lines": 416
+      }
+    }
+  },
+  "axe": {
+    "initial": {
+      "violations": [
+        {
+          "id": "label-content-name-mismatch",
+          "impact": "serious",
+          "help": "Elements must have their visible text as part of their accessible name",
+          "nodes": 1,
+          "targets": [
+            [
+              ".brand"
+            ]
+          ]
+        }
+      ],
+      "passes": 28,
+      "incomplete": 2
+    },
+    "dialog": {
+      "violations": [],
+      "passes": 25,
+      "incomplete": 0
+    }
+  }
+}

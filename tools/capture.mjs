@@ -1,8 +1,8 @@
 import { chromium } from "playwright-core";
 import fs from "node:fs";
+import http from "node:http";
 import path from "node:path";
 import { createRequire } from "node:module";
-import { pathToFileURL } from "node:url";
 
 const require = createRequire(import.meta.url);
 const axePath = require.resolve("axe-core/axe.min.js");
@@ -14,6 +14,8 @@ if (!siteArg || !outArg) {
 }
 
 const siteDir = path.resolve(siteArg);
+const rootDir = path.dirname(siteDir);
+const sitePrefix = `/${path.basename(siteDir)}/`;
 const outDir = path.resolve(outArg);
 const indexPath = path.join(siteDir, "index.html");
 if (!fs.existsSync(indexPath)) {
@@ -21,6 +23,47 @@ if (!fs.existsSync(indexPath)) {
   process.exit(2);
 }
 fs.mkdirSync(outDir, { recursive: true });
+
+const MIME = {
+  ".html": "text/html; charset=utf-8",
+  ".css": "text/css; charset=utf-8",
+  ".js": "text/javascript; charset=utf-8",
+  ".mjs": "text/javascript; charset=utf-8",
+  ".json": "application/json; charset=utf-8",
+  ".svg": "image/svg+xml",
+  ".png": "image/png",
+  ".jpg": "image/jpeg",
+  ".jpeg": "image/jpeg",
+  ".webp": "image/webp",
+  ".avif": "image/avif",
+  ".woff": "font/woff",
+  ".woff2": "font/woff2",
+  ".ico": "image/x-icon",
+};
+
+const server = http.createServer((req, res) => {
+  const pathname = decodeURIComponent(new URL(req.url, "http://localhost").pathname);
+  const isFavicon = pathname === "/favicon.ico";
+  let rel = pathname === "/" ? "index.html" : pathname.replace(/^\/+/, "");
+  if (rel === "" || rel.endsWith("/")) rel += "index.html";
+  const file = path.resolve(rootDir, rel);
+  if (!file.startsWith(rootDir + path.sep) && file !== path.join(rootDir, "index.html")) {
+    res.writeHead(403);
+    res.end("Forbidden");
+    return;
+  }
+  fs.readFile(file, (err, data) => {
+    if (err) {
+      res.writeHead(isFavicon ? 204 : 404);
+      res.end();
+      return;
+    }
+    res.writeHead(200, { "Content-Type": MIME[path.extname(file).toLowerCase()] || "application/octet-stream" });
+    res.end(data);
+  });
+});
+await new Promise((resolve) => server.listen(0, "127.0.0.1", resolve));
+const siteUrl = `http://127.0.0.1:${server.address().port}${sitePrefix}`;
 
 const browser = await chromium.launch({
   executablePath: process.env.CHROMIUM || "/usr/bin/chromium",
@@ -48,7 +91,7 @@ async function prepare(page) {
   page.on("requestfailed", (req) => {
     report.failedRequests.push(`${req.url()} :: ${req.failure()?.errorText}`);
   });
-  await page.goto(pathToFileURL(indexPath).href, { waitUntil: "load", timeout: 30000 });
+  await page.goto(siteUrl, { waitUntil: "load", timeout: 30000 });
   await page.evaluate(() => document.fonts?.ready ?? Promise.resolve());
   await page.evaluate(async () => {
     const step = Math.max(300, window.innerHeight * 0.8);
@@ -101,7 +144,20 @@ await prepare(page);
 report.axe.initial = await axe(page);
 
 await page.screenshot({ path: path.join(outDir, "desktop-fold.png") });
+// Full-page captures use reduced motion so scroll-triggered reveals are in their
+// finished state. The normal fold above still shows the authored first impression.
+await page.emulateMedia({ reducedMotion: "reduce" });
+await page.evaluate(async () => {
+  const step = Math.max(300, window.innerHeight * 0.8);
+  for (let y = 0; y < document.body.scrollHeight; y += step) {
+    window.scrollTo(0, y);
+    await new Promise((r) => setTimeout(r, 45));
+  }
+  window.scrollTo(0, 0);
+});
+await sleep(500);
 await page.screenshot({ path: path.join(outDir, "desktop-full.png"), fullPage: true });
+await page.emulateMedia({ reducedMotion: "no-preference" });
 
 report.metrics.initialVisibleCards = await visibleCards(page);
 report.metrics.horizontalOverflowDesktop = await page.evaluate(
@@ -248,6 +304,16 @@ report.metrics.horizontalOverflowMobile = await mpage.evaluate(
 report.metrics.mobileScrollWidth = await mpage.evaluate(() => document.documentElement.scrollWidth);
 report.metrics.mobileInnerWidth = await mpage.evaluate(() => window.innerWidth);
 await mpage.screenshot({ path: path.join(outDir, "mobile-fold.png") });
+await mpage.emulateMedia({ reducedMotion: "reduce" });
+await mpage.evaluate(async () => {
+  const step = Math.max(300, window.innerHeight * 0.8);
+  for (let y = 0; y < document.body.scrollHeight; y += step) {
+    window.scrollTo(0, y);
+    await new Promise((r) => setTimeout(r, 45));
+  }
+  window.scrollTo(0, 0);
+});
+await sleep(500);
 await mpage.screenshot({ path: path.join(outDir, "mobile-full.png"), fullPage: true });
 
 // Source stats
@@ -262,5 +328,6 @@ report.metrics.source = Object.fromEntries(
 );
 
 await browser.close();
+server.close();
 fs.writeFileSync(path.join(outDir, "report.json"), JSON.stringify(report, null, 2));
 console.log(JSON.stringify(report, null, 2));

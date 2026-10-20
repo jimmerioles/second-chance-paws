@@ -8,3 +8,6 @@ node_modules/
 .claude/
 .impeccable/
 .taste-skill/
+
+# Generated blind-review copy (recreate with tools/make-blind.sh)
+evidence/blind/

@@ -1,0 +1,145 @@
+{
+  "label": "frontend-design",
+  "siteDir": "/home/jimmerioles/Work/tries/2026-10-20-top-design-skill-comparison.worktrees/frontend-design/site",
+  "capturedAt": "2026-10-20T05:07:34.334Z",
+  "consoleErrors": [],
+  "pageErrors": [],
+  "failedRequests": [],
+  "metrics": {
+    "initialVisibleCards": [
+      "mochi",
+      "biscuit",
+      "pepper",
+      "otis",
+      "juniper",
+      "maple"
+    ],
+    "horizontalOverflowDesktop": false,
+    "h1": [
+      "Every puppy\n          deserves a\n          soft landing."
+    ],
+    "headings": [
+      "H1: Every puppy\n          deserves a\n          soft landing.",
+      "H2: Small paws. Big personalities.",
+      "H3: Mochi",
+      "H3: Biscuit",
+      "H3: Pepper",
+      "H3: Otis",
+      "H3: Juniper",
+      "H3: Maple",
+      "H2: From application to homecoming.",
+      "H3: Apply",
+      "H3: Meet",
+      "H3: Bring them home",
+      "H2: Puppy socials & meetups",
+      "H3: Puppy Social",
+      "H3: Meet & Greet",
+      "H3: Foster Info Session",
+      "H2: Fostering is free. The payoff is enormous.",
+      "H3: What your gift covers",
+      "H2: Get the occasional puppy update.",
+      "H2: Puppy profile",
+      "H3: Good with",
+      "H3: Foster note"
+    ],
+    "images": [
+      {
+        "src": "../assets/puppies/hero.jpg",
+        "alt": "A golden retriever puppy resting its front paws on a green wooden bench.",
+        "naturalWidth": 1600
+      },
+      {
+        "src": "../assets/puppies/mochi.jpg",
+        "alt": "Mochi, a tan Shiba Inu mix puppy, lying on a white bed next to a blue ball.",
+        "naturalWidth": 800
+      },
+      {
+        "src": "../assets/puppies/biscuit.jpg",
+        "alt": "Biscuit, a cream-colored retriever mix puppy, resting on a fuzzy blanket.",
+        "naturalWidth": 800
+      },
+      {
+        "src": "../assets/puppies/pepper.jpg",
+        "alt": "Pepper, a gray and white border collie mix puppy, carrying a bone across grass.",
+        "naturalWidth": 800
+      },
+      {
+        "src": "../assets/puppies/otis.jpg",
+        "alt": "Otis, a gray Great Dane mix puppy wearing a red collar, standing indoors.",
+        "naturalWidth": 800
+      },
+      {
+        "src": "../assets/puppies/juniper.jpg",
+        "alt": "Juniper, a black, white, and tan Australian Shepherd mix puppy, standing on a wooden deck.",
+        "naturalWidth": 800
+      },
+      {
+        "src": "../assets/puppies/maple.jpg",
+        "alt": "Maple, a gray and tan Australian Shepherd mix puppy in a striped sweater on a beach.",
+        "naturalWidth": 800
+      },
+      {
+        "src": null,
+        "alt": "",
+        "naturalWidth": 0
+      }
+    ],
+    "fonts": [
+      "Karla, \"Helvetica Neue\", Arial, sans-serif",
+      "\"Young Serif\", Georgia, serif"
+    ],
+    "filterHighEnergyClicked": true,
+    "highEnergyVisible": [
+      "biscuit",
+      "pepper",
+      "juniper"
+    ],
+    "highEnergyPressed": "true",
+    "filterBondedClicked": true,
+    "bondedVisible": [
+      "juniper",
+      "maple"
+    ],
+    "detailOpenAction": "clicked",
+    "detailOpened": true,
+    "detailAriaModal": "true",
+    "detailFocusInside": true,
+    "detailBodyLocked": true,
+    "detailClosedByEscape": true,
+    "focusReturnedToCard": "mochi",
+    "newsletterInvalidAction": "submitted",
+    "newsletterInvalidError": "That email address doesn't look right. Try hello@example.com.",
+    "newsletterInvalidPrevented": true,
+    "newsletterValidAction": "submitted",
+    "newsletterSuccess": "You're on the list. Watch your inbox for wet noses.",
+    "horizontalOverflowMobile": false,
+    "mobileScrollWidth": 390,
+    "mobileInnerWidth": 390,
+    "source": {
+      "index.html": {
+        "bytes": 17063,
+        "lines": 326
+      },
+      "styles.css": {
+        "bytes": 25707,
+        "lines": 1574
+      },
+      "script.js": {
+        "bytes": 9096,
+        "lines": 289
+      }
+    }
+  },
+  "axe": {
+    "initial": {
+      "violations": [],
+      "passes": 27,
+      "incomplete": 1
+    },
+    "dialog": {
+      "violations": [],
+      "passes": 19,
+      "incomplete": 1
+    }
+  }
+}

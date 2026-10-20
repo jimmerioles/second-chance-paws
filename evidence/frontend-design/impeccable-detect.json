@@ -1,0 +1,152 @@
+[
+  {
+    "antipattern": "broken-image",
+    "name": "Broken or placeholder image",
+    "description": "<img> tags with empty src, missing src, or placeholder values ship as broken-image boxes. Use real images, generated assets, or remove the tag.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/home/jimmerioles/Work/tries/2026-10-20-top-design-skill-comparison.worktrees/frontend-design/site/index.html",
+    "line": 0,
+    "snippet": "<img> with no src attribute"
+  },
+  {
+    "antipattern": "cramped-padding",
+    "name": "Cramped padding",
+    "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the space between the rendered text and the border box is too small for the font size, and (2) a wrapper whose children's text lands flush against a visible boundary (border, outline, or non-transparent background) with nothing to inset it. Add at least 8px (ideally 12–16px) of space inside bordered, outlined, or colored containers.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/home/jimmerioles/Work/tries/2026-10-20-top-design-skill-comparison.worktrees/frontend-design/site/index.html",
+    "line": 0,
+    "snippet": "<li>: children flush against border-left on left (no inset)"
+  },
+  {
+    "antipattern": "cramped-padding",
+    "name": "Cramped padding",
+    "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the space between the rendered text and the border box is too small for the font size, and (2) a wrapper whose children's text lands flush against a visible boundary (border, outline, or non-transparent background) with nothing to inset it. Add at least 8px (ideally 12–16px) of space inside bordered, outlined, or colored containers.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/home/jimmerioles/Work/tries/2026-10-20-top-design-skill-comparison.worktrees/frontend-design/site/index.html",
+    "line": 0,
+    "snippet": "<div> \"filter-bar\": children flush against border-top/bottom on top/bottom (no inset)"
+  },
+  {
+    "antipattern": "cramped-padding",
+    "name": "Cramped padding",
+    "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the space between the rendered text and the border box is too small for the font size, and (2) a wrapper whose children's text lands flush against a visible boundary (border, outline, or non-transparent background) with nothing to inset it. Add at least 8px (ideally 12–16px) of space inside bordered, outlined, or colored containers.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/home/jimmerioles/Work/tries/2026-10-20-top-design-skill-comparison.worktrees/frontend-design/site/index.html",
+    "line": 0,
+    "snippet": "<section> \"section\": children flush against bg on all sides (no inset)"
+  },
+  {
+    "antipattern": "cramped-padding",
+    "name": "Cramped padding",
+    "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the space between the rendered text and the border box is too small for the font size, and (2) a wrapper whose children's text lands flush against a visible boundary (border, outline, or non-transparent background) with nothing to inset it. Add at least 8px (ideally 12–16px) of space inside bordered, outlined, or colored containers.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/home/jimmerioles/Work/tries/2026-10-20-top-design-skill-comparison.worktrees/frontend-design/site/index.html",
+    "line": 0,
+    "snippet": "<ul> \"event-list\": children flush against border-top on top (no inset)"
+  },
+  {
+    "antipattern": "cramped-padding",
+    "name": "Cramped padding",
+    "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the space between the rendered text and the border box is too small for the font size, and (2) a wrapper whose children's text lands flush against a visible boundary (border, outline, or non-transparent background) with nothing to inset it. Add at least 8px (ideally 12–16px) of space inside bordered, outlined, or colored containers.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/home/jimmerioles/Work/tries/2026-10-20-top-design-skill-comparison.worktrees/frontend-design/site/index.html",
+    "line": 0,
+    "snippet": "<li> \"event\": children flush against border-bottom on bottom (no inset)"
+  },
+  {
+    "antipattern": "cramped-padding",
+    "name": "Cramped padding",
+    "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the space between the rendered text and the border box is too small for the font size, and (2) a wrapper whose children's text lands flush against a visible boundary (border, outline, or non-transparent background) with nothing to inset it. Add at least 8px (ideally 12–16px) of space inside bordered, outlined, or colored containers.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/home/jimmerioles/Work/tries/2026-10-20-top-design-skill-comparison.worktrees/frontend-design/site/index.html",
+    "line": 0,
+    "snippet": "<li> \"event\": children flush against border-bottom on bottom (no inset)"
+  },
+  {
+    "antipattern": "cramped-padding",
+    "name": "Cramped padding",
+    "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the space between the rendered text and the border box is too small for the font size, and (2) a wrapper whose children's text lands flush against a visible boundary (border, outline, or non-transparent background) with nothing to inset it. Add at least 8px (ideally 12–16px) of space inside bordered, outlined, or colored containers.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/home/jimmerioles/Work/tries/2026-10-20-top-design-skill-comparison.worktrees/frontend-design/site/index.html",
+    "line": 0,
+    "snippet": "<li> \"event\": children flush against border-bottom on bottom (no inset)"
+  },
+  {
+    "antipattern": "cramped-padding",
+    "name": "Cramped padding",
+    "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the space between the rendered text and the border box is too small for the font size, and (2) a wrapper whose children's text lands flush against a visible boundary (border, outline, or non-transparent background) with nothing to inset it. Add at least 8px (ideally 12–16px) of space inside bordered, outlined, or colored containers.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/home/jimmerioles/Work/tries/2026-10-20-top-design-skill-comparison.worktrees/frontend-design/site/index.html",
+    "line": 0,
+    "snippet": "<section> \"section\": children flush against bg on all sides (no inset)"
+  },
+  {
+    "antipattern": "cramped-padding",
+    "name": "Cramped padding",
+    "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the space between the rendered text and the border box is too small for the font size, and (2) a wrapper whose children's text lands flush against a visible boundary (border, outline, or non-transparent background) with nothing to inset it. Add at least 8px (ideally 12–16px) of space inside bordered, outlined, or colored containers.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/home/jimmerioles/Work/tries/2026-10-20-top-design-skill-comparison.worktrees/frontend-design/site/index.html",
+    "line": 0,
+    "snippet": "<li>: children flush against border-bottom on bottom (no inset)"
+  },
+  {
+    "antipattern": "cramped-padding",
+    "name": "Cramped padding",
+    "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the space between the rendered text and the border box is too small for the font size, and (2) a wrapper whose children's text lands flush against a visible boundary (border, outline, or non-transparent background) with nothing to inset it. Add at least 8px (ideally 12–16px) of space inside bordered, outlined, or colored containers.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/home/jimmerioles/Work/tries/2026-10-20-top-design-skill-comparison.worktrees/frontend-design/site/index.html",
+    "line": 0,
+    "snippet": "<li>: children flush against border-bottom on bottom (no inset)"
+  },
+  {
+    "antipattern": "cramped-padding",
+    "name": "Cramped padding",
+    "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the space between the rendered text and the border box is too small for the font size, and (2) a wrapper whose children's text lands flush against a visible boundary (border, outline, or non-transparent background) with nothing to inset it. Add at least 8px (ideally 12–16px) of space inside bordered, outlined, or colored containers.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/home/jimmerioles/Work/tries/2026-10-20-top-design-skill-comparison.worktrees/frontend-design/site/index.html",
+    "line": 0,
+    "snippet": "<li>: children flush against border-bottom on bottom (no inset)"
+  },
+  {
+    "antipattern": "cramped-padding",
+    "name": "Cramped padding",
+    "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the space between the rendered text and the border box is too small for the font size, and (2) a wrapper whose children's text lands flush against a visible boundary (border, outline, or non-transparent background) with nothing to inset it. Add at least 8px (ideally 12–16px) of space inside bordered, outlined, or colored containers.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/home/jimmerioles/Work/tries/2026-10-20-top-design-skill-comparison.worktrees/frontend-design/site/index.html",
+    "line": 0,
+    "snippet": "<section> \"section\": children flush against bg on all sides (no inset)"
+  },
+  {
+    "antipattern": "cramped-padding",
+    "name": "Cramped padding",
+    "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the space between the rendered text and the border box is too small for the font size, and (2) a wrapper whose children's text lands flush against a visible boundary (border, outline, or non-transparent background) with nothing to inset it. Add at least 8px (ideally 12–16px) of space inside bordered, outlined, or colored containers.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/home/jimmerioles/Work/tries/2026-10-20-top-design-skill-comparison.worktrees/frontend-design/site/index.html",
+    "line": 0,
+    "snippet": "<dialog> \"puppy-dialog\": children flush against bg on all sides (no inset)"
+  },
+  {
+    "antipattern": "side-tab",
+    "name": "Side-tab accent border",
+    "description": "Thick colored border on one side of a card — the most recognizable tell of AI-generated UIs. Use a subtler accent or remove it entirely.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "/home/jimmerioles/Work/tries/2026-10-20-top-design-skill-comparison.worktrees/frontend-design/site/styles.css",
+    "line": 934,
+    "snippet": "border-left: 3px solid var(--berry)"
+  }
+]

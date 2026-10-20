@@ -1,0 +1,152 @@
+{
+  "label": "impeccable",
+  "siteDir": "/home/jimmerioles/Work/tries/2026-10-20-top-design-skill-comparison.worktrees/impeccable/site",
+  "capturedAt": "2026-10-20T05:08:17.011Z",
+  "consoleErrors": [],
+  "pageErrors": [],
+  "failedRequests": [],
+  "metrics": {
+    "initialVisibleCards": [
+      "mochi",
+      "biscuit",
+      "pepper",
+      "otis",
+      "juniper",
+      "maple"
+    ],
+    "horizontalOverflowDesktop": false,
+    "h1": [
+      "Every puppy deserves a soft landing."
+    ],
+    "headings": [
+      "H1: Every puppy deserves a soft landing.",
+      "H2: Small paws. Big personalities.",
+      "H2: From application to homecoming.",
+      "H3: Apply",
+      "H3: Meet",
+      "H3: Bring them home",
+      "H2: Puppy socials & meetups",
+      "H3: Puppy Social",
+      "H3: Meet & Greet",
+      "H3: Foster Info Session",
+      "H2: Fostering is free. The payoff is enormous.",
+      "H2: Get the occasional puppy update."
+    ],
+    "images": [
+      {
+        "src": "../assets/puppies/hero.jpg",
+        "alt": "A golden retriever puppy resting its paws on a green wooden ledge, looking at the camera.",
+        "naturalWidth": 1600
+      },
+      {
+        "src": "../assets/puppies/mochi.jpg",
+        "alt": "Mochi, a tan Shiba Inu mix puppy, lying on a white bed beside a blue ball.",
+        "naturalWidth": 800
+      },
+      {
+        "src": "../assets/puppies/biscuit.jpg",
+        "alt": "Biscuit, a cream golden retriever mix puppy, resting on a fleece blanket.",
+        "naturalWidth": 800
+      },
+      {
+        "src": "../assets/puppies/pepper.jpg",
+        "alt": "Pepper, a blue merle border collie mix puppy, carrying a bone across a lawn.",
+        "naturalWidth": 800
+      },
+      {
+        "src": "../assets/puppies/otis.jpg",
+        "alt": "Otis, a grey Great Dane mix puppy, standing on a tiled floor in a red collar.",
+        "naturalWidth": 800
+      },
+      {
+        "src": "../assets/puppies/juniper.jpg",
+        "alt": "Juniper, a black, white, and tan Australian Shepherd mix puppy, standing on a wooden walkway.",
+        "naturalWidth": 800
+      },
+      {
+        "src": "../assets/puppies/maple.jpg",
+        "alt": "Maple, a grey, white, and tan Australian Shepherd mix puppy in a striped sweater, sitting on a beach.",
+        "naturalWidth": 800
+      }
+    ],
+    "fonts": [
+      "\"Courier Prime\", \"Courier New\", monospace",
+      "\"Hanken Grotesk\", \"Helvetica Neue\", Arial, sans-serif",
+      "\"Alfa Slab One\", Rockwell, \"Courier New\", serif"
+    ],
+    "filterHighEnergyClicked": true,
+    "highEnergyVisible": [
+      "biscuit",
+      "pepper",
+      "juniper"
+    ],
+    "highEnergyPressed": "true",
+    "filterBondedClicked": true,
+    "bondedVisible": [
+      "juniper",
+      "maple"
+    ],
+    "detailOpenAction": "clicked",
+    "detailOpened": true,
+    "detailAriaModal": "true",
+    "detailFocusInside": true,
+    "detailBodyLocked": true,
+    "detailClosedByEscape": true,
+    "focusReturnedToCard": "mochi",
+    "newsletterInvalidAction": "submitted",
+    "newsletterInvalidError": "Enter a valid email address, like name@example.com.",
+    "newsletterInvalidPrevented": true,
+    "newsletterValidAction": "submitted",
+    "newsletterSuccess": "You're on the list. Watch your inbox for wet noses.",
+    "horizontalOverflowMobile": false,
+    "mobileScrollWidth": 390,
+    "mobileInnerWidth": 390,
+    "source": {
+      "index.html": {
+        "bytes": 32269,
+        "lines": 608
+      },
+      "styles.css": {
+        "bytes": 34560,
+        "lines": 1884
+      },
+      "script.js": {
+        "bytes": 4966,
+        "lines": 153
+      }
+    }
+  },
+  "axe": {
+    "initial": {
+      "violations": [
+        {
+          "id": "label-content-name-mismatch",
+          "impact": "serious",
+          "help": "Elements must have their visible text as part of their accessible name",
+          "nodes": 8,
+          "targets": [
+            [
+              ".header-inner > .brand[href$=\"#top\"]"
+            ],
+            [
+              "button[data-puppy=\"mochi\"]"
+            ],
+            [
+              "button[data-puppy=\"biscuit\"]"
+            ],
+            [
+              "button[data-puppy=\"pepper\"]"
+            ]
+          ]
+        }
+      ],
+      "passes": 29,
+      "incomplete": 2
+    },
+    "dialog": {
+      "violations": [],
+      "passes": 22,
+      "incomplete": 1
+    }
+  }
+}

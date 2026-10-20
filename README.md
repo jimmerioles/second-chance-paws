@@ -27,6 +27,20 @@ The page deliberately exercises both halves of design skill:
 
 A pure landing page would favor the art-direction skills; a pure app screen would favor the UX/craft skills. This brief gives each one something real to bite into.
 
+## Result
+
+Full write-up: [`COMPARISON.md`](COMPARISON.md).
+
+| Rank | Skill | Total /100 |
+|---|---|---:|
+| 1 | Anthropic frontend-design | 89.5 |
+| 2= | Emil Kowalski | 87.0 |
+| 2= | Impeccable | 87.0 |
+| 4 | UI UX Pro Max | 82.5 |
+| 5 | Taste v2 | 79.5 |
+
+The top three are one tier. Anthropic wins on restraint, accessibility, and low production risk; Impeccable has the biggest idea; Emil has the best interaction craft. Taste has the cleanest anti-slop record but the weakest conventional UX. UI UX Pro Max is the most systematic and the least distinctive.
+
 ## Viewing the results
 
 Each worktree produces:
@@ -49,7 +63,7 @@ Or open `site/index.html` directly.
 
 ## Evaluation
 
-See [`RUBRIC.md`](RUBRIC.md). Screenshots, automated checks, and the blind scoring sheet live in [`COMPARISON.md`](COMPARISON.md) once the runs finish.
+See [`RUBRIC.md`](RUBRIC.md). The blind review is in [`evidence/blind-scores.md`](evidence/blind-scores.md); screenshots, automated checks, and detector output are under `evidence/`. The comparison and per-skill analysis are in [`COMPARISON.md`](COMPARISON.md).
 
 ## Fairness rules
 

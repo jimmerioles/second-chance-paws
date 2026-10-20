@@ -1,0 +1,173 @@
+{
+  "label": "taste",
+  "siteDir": "/home/jimmerioles/Work/tries/2026-10-20-top-design-skill-comparison.worktrees/taste/site",
+  "capturedAt": "2026-10-20T05:10:26.554Z",
+  "consoleErrors": [],
+  "pageErrors": [],
+  "failedRequests": [],
+  "metrics": {
+    "initialVisibleCards": [
+      "mochi",
+      "biscuit",
+      "pepper",
+      "otis",
+      "juniper",
+      "maple"
+    ],
+    "horizontalOverflowDesktop": false,
+    "h1": [
+      "Every puppy deserves\n              a soft landing."
+    ],
+    "headings": [
+      "H1: Every puppy deserves\n              a soft landing.",
+      "H2: Small paws.Big personalities.",
+      "H2: From applicationto homecoming.",
+      "H3: Apply",
+      "H3: Meet",
+      "H3: Bring them home",
+      "H2: Puppy socials& meetups",
+      "H2: Fostering is free.The payoff is enormous.",
+      "H3: What your gift does",
+      "H2: Get the occasionalpuppy update.",
+      "H2: Mochi"
+    ],
+    "images": [
+      {
+        "src": "../assets/puppies/mochi.jpg",
+        "alt": "Mochi, a red Shiba Inu puppy, lying on a white bed beside a blue ball.",
+        "naturalWidth": 800
+      },
+      {
+        "src": "../assets/puppies/biscuit.jpg",
+        "alt": "Biscuit, a cream golden retriever puppy, resting on a soft blanket.",
+        "naturalWidth": 800
+      },
+      {
+        "src": "../assets/puppies/hero.jpg",
+        "alt": "A golden retriever puppy leaning over a wooden planter, looking at the camera.",
+        "naturalWidth": 1600
+      },
+      {
+        "src": "../assets/puppies/mochi.jpg",
+        "alt": "Mochi, a red Shiba Inu puppy, lying on a white bed beside a blue ball.",
+        "naturalWidth": 800
+      },
+      {
+        "src": "../assets/puppies/biscuit.jpg",
+        "alt": "Biscuit, a cream golden retriever puppy, resting on a soft blanket.",
+        "naturalWidth": 800
+      },
+      {
+        "src": "../assets/puppies/pepper.jpg",
+        "alt": "Pepper, a blue merle border collie puppy, standing on grass with a bone in her mouth.",
+        "naturalWidth": 800
+      },
+      {
+        "src": "../assets/puppies/otis.jpg",
+        "alt": "Otis, a grey Great Dane puppy, standing on a tiled floor.",
+        "naturalWidth": 800
+      },
+      {
+        "src": "../assets/puppies/juniper.jpg",
+        "alt": "Juniper, a black, white and tan Australian Shepherd puppy, standing on a wooden deck.",
+        "naturalWidth": 800
+      },
+      {
+        "src": "../assets/puppies/maple.jpg",
+        "alt": "Maple, a blue merle Australian Shepherd puppy in a striped sweater, sitting on a beach.",
+        "naturalWidth": 800
+      },
+      {
+        "src": "../assets/puppies/juniper.jpg",
+        "alt": "Juniper, a black, white and tan Australian Shepherd puppy, standing on a wooden deck.",
+        "naturalWidth": 800
+      },
+      {
+        "src": "../assets/puppies/maple.jpg",
+        "alt": "Maple, a blue merle Australian Shepherd puppy in a striped sweater, sitting on a beach.",
+        "naturalWidth": 800
+      },
+      {
+        "src": "../assets/puppies/biscuit.jpg",
+        "alt": "Biscuit, a cream golden retriever puppy, resting on a soft blanket.",
+        "naturalWidth": 800
+      },
+      {
+        "src": "../assets/puppies/pepper.jpg",
+        "alt": "Pepper, a blue merle border collie puppy, standing on grass with a bone in her mouth.",
+        "naturalWidth": 800
+      },
+      {
+        "src": "../assets/puppies/otis.jpg",
+        "alt": "Otis, a grey Great Dane puppy, standing on a tiled floor.",
+        "naturalWidth": 800
+      },
+      {
+        "src": "../assets/puppies/hero.jpg",
+        "alt": "A golden retriever puppy leaning over a wooden planter, looking at the camera.",
+        "naturalWidth": 1600
+      },
+      {
+        "src": "../assets/puppies/mochi.jpg",
+        "alt": "",
+        "naturalWidth": 800
+      }
+    ],
+    "fonts": [
+      "\"EB Garamond\", Georgia, \"Times New Roman\", serif"
+    ],
+    "filterHighEnergyClicked": true,
+    "highEnergyVisible": [
+      "biscuit",
+      "pepper",
+      "juniper"
+    ],
+    "highEnergyPressed": "true",
+    "filterBondedClicked": true,
+    "bondedVisible": [
+      "juniper",
+      "maple"
+    ],
+    "detailOpenAction": "clicked",
+    "detailOpened": true,
+    "detailAriaModal": "true",
+    "detailFocusInside": true,
+    "detailBodyLocked": true,
+    "detailClosedByEscape": true,
+    "focusReturnedToCard": "mochi",
+    "newsletterInvalidAction": "submitted",
+    "newsletterInvalidError": "Enter a valid email address.",
+    "newsletterInvalidPrevented": true,
+    "newsletterValidAction": "submitted",
+    "newsletterSuccess": "You’re on the list. Watch your inbox for wet noses.",
+    "horizontalOverflowMobile": false,
+    "mobileScrollWidth": 390,
+    "mobileInnerWidth": 390,
+    "source": {
+      "index.html": {
+        "bytes": 21771,
+        "lines": 362
+      },
+      "styles.css": {
+        "bytes": 27868,
+        "lines": 1002
+      },
+      "script.js": {
+        "bytes": 9085,
+        "lines": 267
+      }
+    }
+  },
+  "axe": {
+    "initial": {
+      "violations": [],
+      "passes": 31,
+      "incomplete": 1
+    },
+    "dialog": {
+      "violations": [],
+      "passes": 21,
+      "incomplete": 0
+    }
+  }
+}

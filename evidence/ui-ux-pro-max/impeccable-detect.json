@@ -1,0 +1,312 @@
+[
+  {
+    "antipattern": "border-accent-on-rounded",
+    "name": "Border accent on rounded element",
+    "description": "Thick accent border on a rounded card — the border clashes with the rounded corners. Remove the border or the border-radius.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "/home/jimmerioles/Work/tries/2026-10-20-top-design-skill-comparison.worktrees/ui-ux-pro-max/site/index.html",
+    "line": 0,
+    "snippet": "border-top: 8px + border-radius: 24px"
+  },
+  {
+    "antipattern": "ai-color-palette",
+    "name": "AI color palette",
+    "description": "Purple/violet gradients and cyan-on-dark are the most recognizable tells of AI-generated UIs. A gradient in one of those hues is the tell on its own; flat neon ink on a dark ground is charged once a second tell hue joins it. Choose a distinctive, intentional palette.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "/home/jimmerioles/Work/tries/2026-10-20-top-design-skill-comparison.worktrees/ui-ux-pro-max/site/index.html",
+    "line": 0,
+    "snippet": "Purple/violet text (#2e1065) on heading"
+  },
+  {
+    "antipattern": "ai-color-palette",
+    "name": "AI color palette",
+    "description": "Purple/violet gradients and cyan-on-dark are the most recognizable tells of AI-generated UIs. A gradient in one of those hues is the tell on its own; flat neon ink on a dark ground is charged once a second tell hue joins it. Choose a distinctive, intentional palette.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "/home/jimmerioles/Work/tries/2026-10-20-top-design-skill-comparison.worktrees/ui-ux-pro-max/site/index.html",
+    "line": 0,
+    "snippet": "Purple/violet text (#2e1065) on heading"
+  },
+  {
+    "antipattern": "ai-color-palette",
+    "name": "AI color palette",
+    "description": "Purple/violet gradients and cyan-on-dark are the most recognizable tells of AI-generated UIs. A gradient in one of those hues is the tell on its own; flat neon ink on a dark ground is charged once a second tell hue joins it. Choose a distinctive, intentional palette.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "/home/jimmerioles/Work/tries/2026-10-20-top-design-skill-comparison.worktrees/ui-ux-pro-max/site/index.html",
+    "line": 0,
+    "snippet": "Purple/violet text (#2e1065) on heading"
+  },
+  {
+    "antipattern": "ai-color-palette",
+    "name": "AI color palette",
+    "description": "Purple/violet gradients and cyan-on-dark are the most recognizable tells of AI-generated UIs. A gradient in one of those hues is the tell on its own; flat neon ink on a dark ground is charged once a second tell hue joins it. Choose a distinctive, intentional palette.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "/home/jimmerioles/Work/tries/2026-10-20-top-design-skill-comparison.worktrees/ui-ux-pro-max/site/index.html",
+    "line": 0,
+    "snippet": "Purple/violet text (#2e1065) on heading"
+  },
+  {
+    "antipattern": "ai-color-palette",
+    "name": "AI color palette",
+    "description": "Purple/violet gradients and cyan-on-dark are the most recognizable tells of AI-generated UIs. A gradient in one of those hues is the tell on its own; flat neon ink on a dark ground is charged once a second tell hue joins it. Choose a distinctive, intentional palette.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "/home/jimmerioles/Work/tries/2026-10-20-top-design-skill-comparison.worktrees/ui-ux-pro-max/site/index.html",
+    "line": 0,
+    "snippet": "Purple/violet text (#2e1065) on heading"
+  },
+  {
+    "antipattern": "ai-color-palette",
+    "name": "AI color palette",
+    "description": "Purple/violet gradients and cyan-on-dark are the most recognizable tells of AI-generated UIs. A gradient in one of those hues is the tell on its own; flat neon ink on a dark ground is charged once a second tell hue joins it. Choose a distinctive, intentional palette.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "/home/jimmerioles/Work/tries/2026-10-20-top-design-skill-comparison.worktrees/ui-ux-pro-max/site/index.html",
+    "line": 0,
+    "snippet": "Purple/violet text (#2e1065) on heading"
+  },
+  {
+    "antipattern": "ai-color-palette",
+    "name": "AI color palette",
+    "description": "Purple/violet gradients and cyan-on-dark are the most recognizable tells of AI-generated UIs. A gradient in one of those hues is the tell on its own; flat neon ink on a dark ground is charged once a second tell hue joins it. Choose a distinctive, intentional palette.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "/home/jimmerioles/Work/tries/2026-10-20-top-design-skill-comparison.worktrees/ui-ux-pro-max/site/index.html",
+    "line": 0,
+    "snippet": "Purple/violet text (#2e1065) on heading"
+  },
+  {
+    "antipattern": "ai-color-palette",
+    "name": "AI color palette",
+    "description": "Purple/violet gradients and cyan-on-dark are the most recognizable tells of AI-generated UIs. A gradient in one of those hues is the tell on its own; flat neon ink on a dark ground is charged once a second tell hue joins it. Choose a distinctive, intentional palette.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "/home/jimmerioles/Work/tries/2026-10-20-top-design-skill-comparison.worktrees/ui-ux-pro-max/site/index.html",
+    "line": 0,
+    "snippet": "Purple/violet text (#2e1065) on heading"
+  },
+  {
+    "antipattern": "ai-color-palette",
+    "name": "AI color palette",
+    "description": "Purple/violet gradients and cyan-on-dark are the most recognizable tells of AI-generated UIs. A gradient in one of those hues is the tell on its own; flat neon ink on a dark ground is charged once a second tell hue joins it. Choose a distinctive, intentional palette.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "/home/jimmerioles/Work/tries/2026-10-20-top-design-skill-comparison.worktrees/ui-ux-pro-max/site/index.html",
+    "line": 0,
+    "snippet": "Purple/violet text (#2e1065) on heading"
+  },
+  {
+    "antipattern": "ai-color-palette",
+    "name": "AI color palette",
+    "description": "Purple/violet gradients and cyan-on-dark are the most recognizable tells of AI-generated UIs. A gradient in one of those hues is the tell on its own; flat neon ink on a dark ground is charged once a second tell hue joins it. Choose a distinctive, intentional palette.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "/home/jimmerioles/Work/tries/2026-10-20-top-design-skill-comparison.worktrees/ui-ux-pro-max/site/index.html",
+    "line": 0,
+    "snippet": "Purple/violet text (#2e1065) on heading"
+  },
+  {
+    "antipattern": "ai-color-palette",
+    "name": "AI color palette",
+    "description": "Purple/violet gradients and cyan-on-dark are the most recognizable tells of AI-generated UIs. A gradient in one of those hues is the tell on its own; flat neon ink on a dark ground is charged once a second tell hue joins it. Choose a distinctive, intentional palette.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "/home/jimmerioles/Work/tries/2026-10-20-top-design-skill-comparison.worktrees/ui-ux-pro-max/site/index.html",
+    "line": 0,
+    "snippet": "Purple/violet text (#2e1065) on heading"
+  },
+  {
+    "antipattern": "ai-color-palette",
+    "name": "AI color palette",
+    "description": "Purple/violet gradients and cyan-on-dark are the most recognizable tells of AI-generated UIs. A gradient in one of those hues is the tell on its own; flat neon ink on a dark ground is charged once a second tell hue joins it. Choose a distinctive, intentional palette.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "/home/jimmerioles/Work/tries/2026-10-20-top-design-skill-comparison.worktrees/ui-ux-pro-max/site/index.html",
+    "line": 0,
+    "snippet": "Purple/violet text (#2e1065) on heading"
+  },
+  {
+    "antipattern": "ai-color-palette",
+    "name": "AI color palette",
+    "description": "Purple/violet gradients and cyan-on-dark are the most recognizable tells of AI-generated UIs. A gradient in one of those hues is the tell on its own; flat neon ink on a dark ground is charged once a second tell hue joins it. Choose a distinctive, intentional palette.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "/home/jimmerioles/Work/tries/2026-10-20-top-design-skill-comparison.worktrees/ui-ux-pro-max/site/index.html",
+    "line": 0,
+    "snippet": "Purple/violet text (#2e1065) on heading"
+  },
+  {
+    "antipattern": "ai-color-palette",
+    "name": "AI color palette",
+    "description": "Purple/violet gradients and cyan-on-dark are the most recognizable tells of AI-generated UIs. A gradient in one of those hues is the tell on its own; flat neon ink on a dark ground is charged once a second tell hue joins it. Choose a distinctive, intentional palette.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "/home/jimmerioles/Work/tries/2026-10-20-top-design-skill-comparison.worktrees/ui-ux-pro-max/site/index.html",
+    "line": 0,
+    "snippet": "Purple/violet text (#2e1065) on heading"
+  },
+  {
+    "antipattern": "hero-eyebrow-chip",
+    "name": "Hero eyebrow / pill chip",
+    "description": "A tiny uppercase letter-spaced label sitting immediately above an oversized hero headline — or the same shape rendered as a pill chip — is now the default AI SaaS hero. Drop the eyebrow, integrate the kicker into the headline, or run it as a navigation breadcrumb instead.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "/home/jimmerioles/Work/tries/2026-10-20-top-design-skill-comparison.worktrees/ui-ux-pro-max/site/index.html",
+    "line": 0,
+    "snippet": "eyebrow chip (tracked-caps) \"Portland, Oregon · Foster-based rescue\" above h1 \"Every puppy deserves a soft landing.\""
+  },
+  {
+    "antipattern": "undersized-ui-text",
+    "name": "Undersized functional text",
+    "description": "Interactive and content-bearing UI text (links, buttons, nav items, labels, table cells, meta rows, timecodes) below 11px is a legibility failure, not a style choice. WCAG sets no absolute pixel floor, but functional text under 11px is a defensible quality bar: it fails on high-DPI and small viewports and it degrades tap and read targets. The 11px floor holds even inside a footer; only non-interactive legal smallprint gets the softer 10px floor. Being ON the DESIGN.md size ramp does not exempt a value here: adding 8px to the ramp launders the token but not the legibility problem, and that is exactly the escape hatch this rule closes. Exempts sup/sub, visually-hidden (sr-only) text, and code/terminal contexts. Decorative letterspaced micro-labels are still functional and stay in scope.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/home/jimmerioles/Work/tries/2026-10-20-top-design-skill-comparison.worktrees/ui-ux-pro-max/site/index.html",
+    "line": 0,
+    "snippet": "8.32px functional text \"Portland, OR\" (below 11px floor)"
+  },
+  {
+    "antipattern": "undersized-ui-text",
+    "name": "Undersized functional text",
+    "description": "Interactive and content-bearing UI text (links, buttons, nav items, labels, table cells, meta rows, timecodes) below 11px is a legibility failure, not a style choice. WCAG sets no absolute pixel floor, but functional text under 11px is a defensible quality bar: it fails on high-DPI and small viewports and it degrades tap and read targets. The 11px floor holds even inside a footer; only non-interactive legal smallprint gets the softer 10px floor. Being ON the DESIGN.md size ramp does not exempt a value here: adding 8px to the ramp launders the token but not the legibility problem, and that is exactly the escape hatch this rule closes. Exempts sup/sub, visually-hidden (sr-only) text, and code/terminal contexts. Decorative letterspaced micro-labels are still functional and stay in scope.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/home/jimmerioles/Work/tries/2026-10-20-top-design-skill-comparison.worktrees/ui-ux-pro-max/site/index.html",
+    "line": 0,
+    "snippet": "10.88px functional text \"Puppies\" (below 11px floor)"
+  },
+  {
+    "antipattern": "undersized-ui-text",
+    "name": "Undersized functional text",
+    "description": "Interactive and content-bearing UI text (links, buttons, nav items, labels, table cells, meta rows, timecodes) below 11px is a legibility failure, not a style choice. WCAG sets no absolute pixel floor, but functional text under 11px is a defensible quality bar: it fails on high-DPI and small viewports and it degrades tap and read targets. The 11px floor holds even inside a footer; only non-interactive legal smallprint gets the softer 10px floor. Being ON the DESIGN.md size ramp does not exempt a value here: adding 8px to the ramp launders the token but not the legibility problem, and that is exactly the escape hatch this rule closes. Exempts sup/sub, visually-hidden (sr-only) text, and code/terminal contexts. Decorative letterspaced micro-labels are still functional and stay in scope.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/home/jimmerioles/Work/tries/2026-10-20-top-design-skill-comparison.worktrees/ui-ux-pro-max/site/index.html",
+    "line": 0,
+    "snippet": "10.88px functional text \"How it works\" (below 11px floor)"
+  },
+  {
+    "antipattern": "undersized-ui-text",
+    "name": "Undersized functional text",
+    "description": "Interactive and content-bearing UI text (links, buttons, nav items, labels, table cells, meta rows, timecodes) below 11px is a legibility failure, not a style choice. WCAG sets no absolute pixel floor, but functional text under 11px is a defensible quality bar: it fails on high-DPI and small viewports and it degrades tap and read targets. The 11px floor holds even inside a footer; only non-interactive legal smallprint gets the softer 10px floor. Being ON the DESIGN.md size ramp does not exempt a value here: adding 8px to the ramp launders the token but not the legibility problem, and that is exactly the escape hatch this rule closes. Exempts sup/sub, visually-hidden (sr-only) text, and code/terminal contexts. Decorative letterspaced micro-labels are still functional and stay in scope.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/home/jimmerioles/Work/tries/2026-10-20-top-design-skill-comparison.worktrees/ui-ux-pro-max/site/index.html",
+    "line": 0,
+    "snippet": "10.88px functional text \"Events\" (below 11px floor)"
+  },
+  {
+    "antipattern": "undersized-ui-text",
+    "name": "Undersized functional text",
+    "description": "Interactive and content-bearing UI text (links, buttons, nav items, labels, table cells, meta rows, timecodes) below 11px is a legibility failure, not a style choice. WCAG sets no absolute pixel floor, but functional text under 11px is a defensible quality bar: it fails on high-DPI and small viewports and it degrades tap and read targets. The 11px floor holds even inside a footer; only non-interactive legal smallprint gets the softer 10px floor. Being ON the DESIGN.md size ramp does not exempt a value here: adding 8px to the ramp launders the token but not the legibility problem, and that is exactly the escape hatch this rule closes. Exempts sup/sub, visually-hidden (sr-only) text, and code/terminal contexts. Decorative letterspaced micro-labels are still functional and stay in scope.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/home/jimmerioles/Work/tries/2026-10-20-top-design-skill-comparison.worktrees/ui-ux-pro-max/site/index.html",
+    "line": 0,
+    "snippet": "10.88px functional text \"Foster\" (below 11px floor)"
+  },
+  {
+    "antipattern": "cramped-padding",
+    "name": "Cramped padding",
+    "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the space between the rendered text and the border box is too small for the font size, and (2) a wrapper whose children's text lands flush against a visible boundary (border, outline, or non-transparent background) with nothing to inset it. Add at least 8px (ideally 12–16px) of space inside bordered, outlined, or colored containers.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/home/jimmerioles/Work/tries/2026-10-20-top-design-skill-comparison.worktrees/ui-ux-pro-max/site/index.html",
+    "line": 0,
+    "snippet": "<section> \"section\": children flush against border-top on top (no inset)"
+  },
+  {
+    "antipattern": "cramped-padding",
+    "name": "Cramped padding",
+    "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the space between the rendered text and the border box is too small for the font size, and (2) a wrapper whose children's text lands flush against a visible boundary (border, outline, or non-transparent background) with nothing to inset it. Add at least 8px (ideally 12–16px) of space inside bordered, outlined, or colored containers.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/home/jimmerioles/Work/tries/2026-10-20-top-design-skill-comparison.worktrees/ui-ux-pro-max/site/index.html",
+    "line": 0,
+    "snippet": "<div> \"filter-bar\": children flush against border-top/bottom on top/bottom (no inset)"
+  },
+  {
+    "antipattern": "cramped-padding",
+    "name": "Cramped padding",
+    "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the space between the rendered text and the border box is too small for the font size, and (2) a wrapper whose children's text lands flush against a visible boundary (border, outline, or non-transparent background) with nothing to inset it. Add at least 8px (ideally 12–16px) of space inside bordered, outlined, or colored containers.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/home/jimmerioles/Work/tries/2026-10-20-top-design-skill-comparison.worktrees/ui-ux-pro-max/site/index.html",
+    "line": 0,
+    "snippet": "<div> \"empty-state\": children flush against border+bg on top (no inset)"
+  },
+  {
+    "antipattern": "cramped-padding",
+    "name": "Cramped padding",
+    "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the space between the rendered text and the border box is too small for the font size, and (2) a wrapper whose children's text lands flush against a visible boundary (border, outline, or non-transparent background) with nothing to inset it. Add at least 8px (ideally 12–16px) of space inside bordered, outlined, or colored containers.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/home/jimmerioles/Work/tries/2026-10-20-top-design-skill-comparison.worktrees/ui-ux-pro-max/site/index.html",
+    "line": 0,
+    "snippet": "<section> \"section\": children flush against bg on all sides (no inset)"
+  },
+  {
+    "antipattern": "cramped-padding",
+    "name": "Cramped padding",
+    "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the space between the rendered text and the border box is too small for the font size, and (2) a wrapper whose children's text lands flush against a visible boundary (border, outline, or non-transparent background) with nothing to inset it. Add at least 8px (ideally 12–16px) of space inside bordered, outlined, or colored containers.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/home/jimmerioles/Work/tries/2026-10-20-top-design-skill-comparison.worktrees/ui-ux-pro-max/site/index.html",
+    "line": 0,
+    "snippet": "<li> \"step\": children flush against border-top/left on left (no inset)"
+  },
+  {
+    "antipattern": "cramped-padding",
+    "name": "Cramped padding",
+    "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the space between the rendered text and the border box is too small for the font size, and (2) a wrapper whose children's text lands flush against a visible boundary (border, outline, or non-transparent background) with nothing to inset it. Add at least 8px (ideally 12–16px) of space inside bordered, outlined, or colored containers.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/home/jimmerioles/Work/tries/2026-10-20-top-design-skill-comparison.worktrees/ui-ux-pro-max/site/index.html",
+    "line": 0,
+    "snippet": "<li> \"step\": children flush against border-top/left on left (no inset)"
+  },
+  {
+    "antipattern": "cramped-padding",
+    "name": "Cramped padding",
+    "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the space between the rendered text and the border box is too small for the font size, and (2) a wrapper whose children's text lands flush against a visible boundary (border, outline, or non-transparent background) with nothing to inset it. Add at least 8px (ideally 12–16px) of space inside bordered, outlined, or colored containers.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/home/jimmerioles/Work/tries/2026-10-20-top-design-skill-comparison.worktrees/ui-ux-pro-max/site/index.html",
+    "line": 0,
+    "snippet": "<li>: children flush against border-bottom on bottom (no inset)"
+  },
+  {
+    "antipattern": "cramped-padding",
+    "name": "Cramped padding",
+    "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the space between the rendered text and the border box is too small for the font size, and (2) a wrapper whose children's text lands flush against a visible boundary (border, outline, or non-transparent background) with nothing to inset it. Add at least 8px (ideally 12–16px) of space inside bordered, outlined, or colored containers.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/home/jimmerioles/Work/tries/2026-10-20-top-design-skill-comparison.worktrees/ui-ux-pro-max/site/index.html",
+    "line": 0,
+    "snippet": "<div> \"newsletter-card\": children flush against border+bg on all sides (no inset)"
+  },
+  {
+    "antipattern": "dark-glow",
+    "name": "Glowing shadow accents",
+    "description": "Colored glow shadows — a zero-offset chromatic halo (box- or text-shadow) on any background, or any colored blurred shadow on a dark background — are the default \"cool\" look of AI-generated UIs. Use neutral elevation shadows and subtle, purposeful lighting instead.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "/home/jimmerioles/Work/tries/2026-10-20-top-design-skill-comparison.worktrees/ui-ux-pro-max/site/index.html",
+    "line": 0,
+    "snippet": "Colored box-shadow glow (#2e1065) on dark page"
+  },
+  {
+    "antipattern": "border-accent-on-rounded",
+    "name": "Border accent on rounded element",
+    "description": "Thick accent border on a rounded card — the border clashes with the rounded corners. Remove the border or the border-radius.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "/home/jimmerioles/Work/tries/2026-10-20-top-design-skill-comparison.worktrees/ui-ux-pro-max/site/styles.css",
+    "line": 1096,
+    "snippet": "border-top: 8px solid"
+  }
+]
