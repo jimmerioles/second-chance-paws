@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Second Chance Paws · Foster-based puppy rescue in Portland, Oregon</title>
+  <meta name="description" content="Second Chance Paws is a foster-based puppy rescue in Portland, Oregon. Meet the puppies, learn how adoption works, foster, or donate.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
+  <script>document.documentElement.classList.add('js')</script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" data-header>
+    <div class="site-header__inner wrap">
+      <div class="brand">
+        <a class="wordmark" href="#top">Second Chance Paws</a>
+        <p class="site-header__place">Portland, Oregon · Foster-based rescue</p>
+      </div>
+
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <a href="#puppies">Puppies</a>
+        <a href="#how-it-works">How it works</a>
+        <a href="#events">Events</a>
+        <a href="#foster">Foster</a>
+      </nav>
+
+      <div class="site-header__actions">
+        <a class="button button--small" href="#foster">Donate</a>
+        <button class="menu-toggle" type="button" data-menu-toggle aria-expanded="false" aria-controls="site-nav">Menu</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero__rail wrap">
+        <div class="hero__left">
+          <figure class="hero__small print">
+            <img src="../assets/puppies/mochi.jpg" alt="Mochi, a red Shiba Inu puppy, lying on a white bed beside a blue ball." width="800" height="1000" fetchpriority="high">
+          </figure>
+
+          <div class="hero__copy">
+            <h1 class="hero__title lines" id="hero-title">
+              <span class="line"><span data-line style="--i:0">Every puppy deserves</span></span>
+              <span class="line"><span data-line style="--i:1">a soft landing.</span></span>
+            </h1>
+            <p class="hero__body" data-load style="--d:420ms">We pull puppies from overcrowded shelters across the Pacific Northwest, then match them with homes that fit their energy, size, and personality.</p>
+            <div class="hero__actions" data-load style="--d:500ms">
+              <a class="button" href="#puppies">Meet the puppies</a>
+              <a class="link-plain" href="#foster">Become a foster</a>
+            </div>
+          </div>
+        </div>
+
+        <figure class="hero__tall print">
+          <div class="shutter-frame">
+            <img src="../assets/puppies/biscuit.jpg" alt="Biscuit, a cream golden retriever puppy, resting on a soft blanket." width="800" height="1000" fetchpriority="high">
+          </div>
+          <figcaption>Biscuit · 5 months</figcaption>
+        </figure>
+
+        <div class="hero__right">
+          <figure class="hero__wide print" data-load style="--d:360ms">
+            <img src="../assets/puppies/hero.jpg" alt="A golden retriever puppy leaning over a wooden planter, looking at the camera." width="1600" height="1067" fetchpriority="high">
+            <figcaption>At home with a foster family</figcaption>
+          </figure>
+
+          <dl class="hero__stats" data-load style="--d:600ms">
+            <div><dt>412</dt><dd>puppies placed</dd></div>
+            <div><dt>38</dt><dd>foster homes</dd></div>
+            <div><dt>96%</dt><dd>placement rate</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <section class="puppies section" id="puppies" aria-labelledby="puppies-title">
+      <div class="wrap">
+        <div class="puppies__intro">
+          <h2 class="head" id="puppies-title" data-reveal>Small paws.<br>Big personalities.</h2>
+          <p class="puppies__body intro__body" data-reveal style="--delay:80ms">Every puppy here is living with a foster family, not in a kennel. Filter by what fits your home, then come say hello.</p>
+        </div>
+
+        <div class="puppies__controls">
+          <p class="roster-note" data-reveal style="--delay:120ms">Waiting for you</p>
+          <div class="filters" role="group" aria-label="Filter puppies by what fits your home" data-reveal style="--delay:160ms">
+            <button type="button" data-filter="all" aria-pressed="true">All puppies</button>
+            <button type="button" data-filter="apartment" aria-pressed="false">Apartment-friendly</button>
+            <button type="button" data-filter="high-energy" aria-pressed="false">High energy</button>
+            <button type="button" data-filter="cuddly" aria-pressed="false">Cuddly</button>
+            <button type="button" data-filter="bonded" aria-pressed="false">Bonded pair</button>
+          </div>
+          <p class="puppies__count" data-count aria-live="polite">Showing 6 puppies</p>
+        </div>
+
+        <ul class="puppy-grid" id="puppy-grid">
+          <li data-reveal>
+            <button class="puppy-card" type="button" data-puppy="mochi" data-cats="apartment cuddly" data-size="Small · 12 lb" data-good="Dogs, kids 8+" data-note="Still learning leash manners" data-bio="A 12-pound philosopher who believes every sunbeam is a personal invitation." aria-haspopup="dialog" aria-controls="puppy-detail" aria-label="Meet Mochi, 4 months, female, Shiba Inu mix">
+              <span class="puppy-card__frame ratio-4x5">
+                <img src="../assets/puppies/mochi.jpg" alt="Mochi, a red Shiba Inu puppy, lying on a white bed beside a blue ball." width="800" height="1000" loading="lazy">
+              </span>
+              <span class="puppy-card__strip">
+                <span class="puppy-card__name">Mochi</span>
+                <span class="puppy-card__meta">4 months · Female · Shiba Inu mix</span>
+                <span class="puppy-card__tags"><span>Apartment-friendly</span><span>Cuddly</span></span>
+              </span>
+            </button>
+          </li>
+
+          <li data-reveal style="--delay:60ms">
+            <button class="puppy-card" type="button" data-puppy="biscuit" data-cats="high-energy" data-size="Medium · 28 lb" data-good="Dogs, cats, kids" data-note="Crate trained" data-bio="A golden-hearted goofball with one ear that hasn’t decided which way to point." aria-haspopup="dialog" aria-controls="puppy-detail" aria-label="Meet Biscuit, 5 months, male, Golden Retriever mix">
+              <span class="puppy-card__frame ratio-1x1">
+                <img src="../assets/puppies/biscuit.jpg" alt="Biscuit, a cream golden retriever puppy, resting on a soft blanket." width="800" height="1000" loading="lazy">
+              </span>
+              <span class="puppy-card__strip">
+                <span class="puppy-card__name">Biscuit</span>
+                <span class="puppy-card__meta">5 months · Male · Golden Retriever mix</span>
+                <span class="puppy-card__tags"><span>High energy</span><span>Good with kids</span></span>
+              </span>
+            </button>
+          </li>
+
+          <li data-reveal style="--delay:120ms">
+            <button class="puppy-card" type="button" data-puppy="pepper" data-cats="high-energy" data-size="Medium · 18 lb" data-good="Dogs, kids 10+" data-note="Crate trained" data-bio="Herding socks, leaves, and the occasional leaf blower." aria-haspopup="dialog" aria-controls="puppy-detail" aria-label="Meet Pepper, 3 months, female, Border Collie mix">
+              <span class="puppy-card__frame ratio-16x10">
+                <img src="../assets/puppies/pepper.jpg" alt="Pepper, a blue merle border collie puppy, standing on grass with a bone in her mouth." width="800" height="1000" loading="lazy">
+              </span>
+              <span class="puppy-card__strip">
+                <span class="puppy-card__name">Pepper</span>
+                <span class="puppy-card__meta">3 months · Female · Border Collie mix</span>
+                <span class="puppy-card__tags"><span>High energy</span><span>Smart</span></span>
+              </span>
+            </button>
+          </li>
+
+          <li data-reveal style="--delay:180ms">
+            <button class="puppy-card" type="button" data-puppy="otis" data-cats="cuddly" data-size="Large · 48 lb" data-good="Dogs, kids 12+" data-note="House-trained" data-bio="A 48-pound lap dog in training. Proceed with a sturdy sofa." aria-haspopup="dialog" aria-controls="puppy-detail" aria-label="Meet Otis, 6 months, male, Great Dane mix">
+              <span class="puppy-card__frame ratio-3x4">
+                <img src="../assets/puppies/otis.jpg" alt="Otis, a grey Great Dane puppy, standing on a tiled floor." width="800" height="1000" loading="lazy">
+              </span>
+              <span class="puppy-card__strip">
+                <span class="puppy-card__name">Otis</span>
+                <span class="puppy-card__meta">6 months · Male · Great Dane mix</span>
+                <span class="puppy-card__tags"><span>Low energy</span><span>Cuddly</span></span>
+              </span>
+            </button>
+          </li>
+
+          <li data-reveal style="--delay:240ms">
+            <button class="puppy-card" type="button" data-puppy="juniper" data-cats="high-energy bonded" data-size="Medium · 22 lb" data-good="Dogs, kids 10+" data-note="Bonded with Maple" data-bio="Trail-ready and always the first to investigate a new smell." aria-haspopup="dialog" aria-controls="puppy-detail" aria-label="Meet Juniper, 4 months, female, Australian Shepherd mix">
+              <span class="puppy-card__frame ratio-4x5">
+                <img src="../assets/puppies/juniper.jpg" alt="Juniper, a black, white and tan Australian Shepherd puppy, standing on a wooden deck." width="800" height="1000" loading="lazy">
+              </span>
+              <span class="puppy-card__strip">
+                <span class="puppy-card__name">Juniper</span>
+                <span class="puppy-card__meta">4 months · Female · Australian Shepherd mix</span>
+                <span class="puppy-card__tags"><span>High energy</span><span>Bonded pair</span></span>
+              </span>
+            </button>
+          </li>
+
+          <li data-reveal style="--delay:300ms">
+            <button class="puppy-card" type="button" data-puppy="maple" data-cats="apartment cuddly bonded" data-size="Medium · 16 lb" data-good="Dogs" data-note="Bonded with Juniper; shy at first" data-bio="A quieter soul who blossoms once Juniper shows her the way." aria-haspopup="dialog" aria-controls="puppy-detail" aria-label="Meet Maple, 3 months, female, Australian Shepherd mix">
+              <span class="puppy-card__frame ratio-1x1">
+                <img src="../assets/puppies/maple.jpg" alt="Maple, a blue merle Australian Shepherd puppy in a striped sweater, sitting on a beach." width="800" height="1000" loading="lazy">
+              </span>
+              <span class="puppy-card__strip">
+                <span class="puppy-card__name">Maple</span>
+                <span class="puppy-card__meta">3 months · Female · Australian Shepherd mix</span>
+                <span class="puppy-card__tags"><span>Bonded pair</span><span>Apartment-friendly</span><span>Cuddly</span></span>
+              </span>
+            </button>
+          </li>
+        </ul>
+        <p class="empty" data-empty hidden>No puppies match that yet. Try another filter.</p>
+      </div>
+    </section>
+
+    <section class="how section" id="how-it-works" aria-labelledby="how-title">
+      <div class="wrap">
+        <div class="how__intro">
+          <h2 class="head how__title" id="how-title" data-reveal>From application<br>to homecoming.</h2>
+          <p class="how__body intro__body" data-reveal style="--delay:80ms">No auctions, no guesswork. Just a thoughtful match for both of you.</p>
+          <p class="roster-note how__label" data-reveal style="--delay:120ms">How it works</p>
+        </div>
+
+        <div class="how__grid">
+          <figure class="how__photo how__photo--one print" data-reveal>
+            <img src="../assets/puppies/juniper.jpg" alt="Juniper, a black, white and tan Australian Shepherd puppy, standing on a wooden deck." width="800" height="1000" loading="lazy">
+          </figure>
+          <div class="how__step how__step--one" data-reveal style="--delay:80ms">
+            <h3>Apply</h3>
+            <p>Tell us about your home, your schedule, and the kind of puppy you’re hoping for. It takes about 10 minutes.</p>
+          </div>
+
+          <figure class="how__photo how__photo--two print" data-reveal style="--delay:120ms">
+            <img src="../assets/puppies/maple.jpg" alt="Maple, a blue merle Australian Shepherd puppy in a striped sweater, sitting on a beach." width="800" height="1000" loading="lazy">
+          </figure>
+          <div class="how__step how__step--two" data-reveal style="--delay:160ms">
+            <h3>Meet</h3>
+            <p>We’ll set up a low-pressure meet at the puppy’s foster home or at a weekend social.</p>
+          </div>
+
+          <figure class="how__photo how__photo--three print" data-reveal style="--delay:200ms">
+            <img src="../assets/puppies/biscuit.jpg" alt="Biscuit, a cream golden retriever puppy, resting on a soft blanket." width="800" height="1000" loading="lazy">
+          </figure>
+          <div class="how__step how__step--three" data-reveal style="--delay:240ms">
+            <h3>Bring them home</h3>
+            <p>You’ll go home with food, a favorite blanket, and a 30-day check-in from our team.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="events section" id="events" aria-labelledby="events-title">
+      <div class="wrap events__inner">
+        <div class="events__head">
+          <h2 class="head" id="events-title" data-reveal>Puppy socials<br>&amp; meetups</h2>
+          <p class="events__body intro__body" data-reveal style="--delay:80ms">The best way to fall in love is in person. All events are free and family-friendly.</p>
+          <p class="roster-note" data-reveal style="--delay:120ms">Come say hi</p>
+        </div>
+
+        <figure class="events__photo print" data-reveal style="--delay:160ms">
+          <img src="../assets/puppies/pepper.jpg" alt="Pepper, a blue merle border collie puppy, standing on grass with a bone in her mouth." width="800" height="1000" loading="lazy">
+        </figure>
+
+        <div class="events__table" data-reveal style="--delay:120ms">
+          <table>
+            <thead>
+              <tr>
+                <th scope="col">Event</th>
+                <th scope="col">Date &amp; time</th>
+                <th scope="col">Where</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Puppy Social</th>
+                <td>Saturday, November 7, 2026<span>11:00 AM – 2:00 PM</span></td>
+                <td>Laurelhurst Park, Portland</td>
+              </tr>
+              <tr>
+                <th scope="row">Meet &amp; Greet</th>
+                <td>Sunday, November 15, 2026<span>1:00 – 4:00 PM</span></td>
+                <td>Rev Hall, 715 SE Lincoln St</td>
+              </tr>
+              <tr>
+                <th scope="row">Foster Info Session</th>
+                <td>Saturday, November 21, 2026<span>10:00 – 11:00 AM</span></td>
+                <td>Online</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="foster" id="foster" aria-labelledby="foster-title">
+      <div class="foster__inner">
+        <figure class="foster__media">
+          <img src="../assets/puppies/otis.jpg" alt="Otis, a grey Great Dane puppy, standing on a tiled floor." width="800" height="1000" loading="lazy">
+        </figure>
+        <div class="foster__body">
+          <h2 class="head" id="foster-title" data-reveal>Fostering is free.<br>The payoff is enormous.</h2>
+          <p class="foster__text" data-reveal style="--delay:80ms">We cover food, supplies, and vet care. You provide the couch, the patience, and the occasional sock sacrifice.</p>
+          <div class="foster__actions" data-reveal style="--delay:140ms">
+            <a class="button" href="mailto:hello@secondchancepaws.org?subject=Foster%20application">Become a foster</a>
+            <a class="link-plain" href="mailto:hello@secondchancepaws.org?subject=Donation%20%2425">Donate $25</a>
+          </div>
+          <div class="foster__impact" data-reveal style="--delay:200ms">
+            <h3>What your gift does</h3>
+            <dl>
+              <div><dt>$25</dt><dd>one week of food</dd></div>
+              <div><dt>$75</dt><dd>a vet visit</dd></div>
+              <div><dt>$150</dt><dd>a spay or neuter</dd></div>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="newsletter" id="newsletter" aria-labelledby="newsletter-title">
+      <div class="wrap newsletter__inner">
+        <div class="newsletter__copy">
+          <h2 class="head" id="newsletter-title" data-reveal>Get the occasional<br>puppy update.</h2>
+          <p data-reveal style="--delay:80ms">No spam, just new arrivals and event invites.</p>
+        </div>
+
+        <div class="newsletter__form" data-reveal style="--delay:140ms">
+          <form data-newsletter novalidate>
+            <label for="newsletter-email">Email address</label>
+            <input id="newsletter-email" type="email" name="email" autocomplete="email" inputmode="email" required aria-describedby="newsletter-error">
+            <p class="form__error" id="newsletter-error" data-newsletter-error role="alert" hidden>Enter a valid email address.</p>
+            <button class="button" type="submit">Sign me up</button>
+            <p class="form__success" data-newsletter-success aria-live="polite" hidden>You’re on the list. Watch your inbox for wet noses.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="footer">
+    <figure class="site-footer__photo">
+      <img src="../assets/puppies/hero.jpg" alt="A golden retriever puppy leaning over a wooden planter, looking at the camera." width="1600" height="1067" loading="lazy">
+    </figure>
+
+    <div class="site-footer__panel">
+      <p class="footer__brand">Second Chance Paws · Portland, OR</p>
+
+      <nav class="footer__nav" aria-label="Footer">
+        <a href="#puppies">Puppies</a>
+        <a href="#how-it-works">How it works</a>
+        <a href="#events">Events</a>
+        <a href="#foster">Foster</a>
+        <a href="#newsletter">Newsletter</a>
+      </nav>
+
+      <div class="footer__meta">
+        <div>
+          <p class="footer__label">Contact</p>
+          <p><a href="mailto:hello@secondchancepaws.org">hello@secondchancepaws.org</a></p>
+        </div>
+        <div>
+          <p class="footer__label">Social</p>
+          <p>Instagram · Facebook</p>
+        </div>
+      </div>
+
+      <p class="footer__legal">© 2026 Second Chance Paws</p>
+
+      <p class="credits">Photos: <a href="https://commons.wikimedia.org/wiki/File:Shiba_inu_puppy_and_adult.jpg">Mochi</a> by Ichigocha (<a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>); <a href="https://commons.wikimedia.org/wiki/File:Golden_Retriever_puppy_(3813393).jpg">Biscuit</a> by jaclou-dl (<a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>); <a href="https://commons.wikimedia.org/wiki/File:-1978-03-31_Blue_merle_border_collie_puppy_with_a_bone,_Trimingham,_Norfolk.jpg">Pepper</a> by Kolforn (<a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, cropped); <a href="https://commons.wikimedia.org/wiki/File:Cuccioloblu.JPG">Otis</a> by Vannivanni (<a href="https://creativecommons.org/publicdomain/mark/1.0/">public domain</a>); <a href="https://commons.wikimedia.org/wiki/File:%22Australian_Shepherd%22_%22Australian_Shepherds%22_Aussie_%22Morgan_van_Pelt%22_%22Mitch_Van_Pelt%22.jpg">Juniper</a> by Ted Van Pelt (<a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>); <a href="https://commons.wikimedia.org/wiki/File:8_Week_Old_Australian_Shepherd_Puppy.jpg">Maple</a> by Gorfiest (<a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>); <a href="https://commons.wikimedia.org/wiki/File:Callie_the_golden_retriever_puppy.jpg">hero</a> by MichaelMcPhee (<a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>). All via Wikimedia Commons.</p>
+    </div>
+  </footer>
+
+  <dialog class="puppy-detail" id="puppy-detail" role="dialog" aria-modal="true" aria-labelledby="puppy-detail-name">
+    <div class="puppy-detail__panel">
+      <button class="puppy-detail__close" type="button" data-close>Close</button>
+      <figure class="puppy-detail__media">
+        <img data-detail-image src="../assets/puppies/mochi.jpg" alt="" width="800" height="1000">
+      </figure>
+      <div class="puppy-detail__body">
+        <h2 id="puppy-detail-name" data-detail-name>Mochi</h2>
+        <p class="puppy-detail__meta" data-detail-meta></p>
+        <p class="puppy-detail__bio" data-detail-bio></p>
+        <dl class="puppy-detail__facts">
+          <div><dt>Good with</dt><dd data-detail-good></dd></div>
+          <div><dt>Detail note</dt><dd data-detail-note></dd></div>
+        </dl>
+        <ul class="puppy-detail__tags" data-detail-tags></ul>
+        <a class="button" data-detail-cta href="mailto:hello@secondchancepaws.org">Start adoption application</a>
+      </div>
+    </div>
+  </dialog>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
