@@ -85,7 +85,7 @@ Detector findings by rule:
 | Emil | **31 undersized functional text** (9–10.4 px labels); 6 cramped padding; 2 overused font; 1 wide tracking; 1 italic serif display; 1 hero eyebrow chip; 1 cream palette; 1 broken-image false positive; 1 low-contrast advisory |
 | Taste | 3 cramped-padding section-level false positives; no AI palette, font, cream, or eyebrow tells |
 
-Two corrections to the automated results:
+Three corrections to the automated results:
 
 1. **Emil’s dialog scroll lock is real.** The report’s `detailBodyLocked` check reads `body` overflow, but Emil locks `html.is-locked`. A manual wheel test with the dialog open leaves `window.scrollY` unchanged. The blind juror’s “background scrolling is not locked” note is a harness false negative.
 2. **Emil’s empty `H2` is real.** The hidden dialog heading is empty until a puppy is opened. It is minor, but it is an outline defect.
