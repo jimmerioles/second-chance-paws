@@ -16,7 +16,7 @@ A controlled comparison of five well-known “design taste” skills for coding 
 | Emil Kowalski | `emilkowalski/skills` (`emil-design-eng`, `animate`, `review-animations`) | `skill/emil-kowalski` |
 | Taste | `Leonxlnx/taste-skill` (`design-taste-frontend`, v2) | `skill/taste` |
 
-Each worktree installs its skill in `.opencode/skills/` (project scope) using the skill’s own installer where one exists. Exact versions and commands are in [`INSTALLS.md`](INSTALLS.md).
+Each worktree installs its skill at project scope using the skill’s own installer where one exists. This run used OpenCode’s `.opencode/skills/`; the same standard Agent Skills folders are portable to `.agents/skills/` (the cross-agent convention) or `.claude/skills/`. Exact versions and commands are in [`INSTALLS.md`](INSTALLS.md).
 
 ## Why this project
 

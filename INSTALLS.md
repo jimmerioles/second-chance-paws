@@ -1,6 +1,6 @@
 # Installed skill versions
 
-Installed into each worktree at project scope (`.opencode/skills/`) so OpenCode discovers them automatically.
+Installed into each worktree at project scope. This run used OpenCode’s `.opencode/skills/` so OpenCode discovers them automatically; the same standard Agent Skills folders also work in `.agents/skills/` (cross-agent) or `.claude/skills/`.
 
 | Worktree | Skill(s) installed | Source / version | Install command |
 |---|---|---|---|
@@ -18,3 +18,13 @@ Installed into each worktree at project scope (`.opencode/skills/`) so OpenCode 
 - Emil's bundle has 12 skills; the three installed cover his design philosophy, build-from-scratch motion, and motion review. The project does not need native/iOS or performance-specific skills.
 - Taste v2 ships scripts and a library. The worker runs `draw.mjs`, `inspect.mjs`, and `lint.mjs` as prescribed, writing scratch files under `.taste-skill/`.
 - These installs are gitignored. `NOTES.md` in each worktree records what the worker actually ran.
+
+## Portability
+
+These are standard Agent Skills folders, so they are not tied to OpenCode. At project scope, OpenCode discovers:
+
+- `.opencode/skills/<name>/SKILL.md` — OpenCode-specific
+- `.claude/skills/<name>/SKILL.md` — Claude-compatible
+- `.agents/skills/<name>/SKILL.md` — cross-agent convention
+
+Use `.agents/skills/` when you want a harness-agnostic layout. Use the agent-specific folder when an installer also needs to write agent-specific commands or hooks; Impeccable, for example, installs a command file and a detector hook alongside its skill.
