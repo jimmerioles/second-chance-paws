@@ -1,6 +1,6 @@
 # Installed skill versions
 
-Installed into each worktree at project scope. This run used OpenCode’s `.opencode/skills/` so OpenCode discovers them automatically; the same standard Agent Skills folders also work in `.agents/skills/` (cross-agent) or `.claude/skills/`.
+Installed into each worktree at project scope. The comparison run used OpenCode’s `.opencode/skills/`; the current worktrees keep canonical copies in `.agents/skills/` with compatibility symlinks in `.opencode/skills/`.
 
 | Worktree | Skill(s) installed | Source / version | Install command |
 |---|---|---|---|
@@ -28,3 +28,5 @@ These are standard Agent Skills folders, so they are not tied to OpenCode. At pr
 - `.agents/skills/<name>/SKILL.md` — cross-agent convention
 
 Use `.agents/skills/` when you want a harness-agnostic layout. Use the agent-specific folder when an installer also needs to write agent-specific commands or hooks; Impeccable, for example, installs a command file and a detector hook alongside its skill.
+
+In this environment, OpenCode `2.0.32` watches `.agents/skills/` but its project skill loader reads `.opencode/skills/` and `.claude/skills/`. The worktrees therefore keep the canonical files in `.agents/skills/` and symlink each folder into `.opencode/skills/`. Agents that read `.agents/skills/` see the canonical copies directly; OpenCode sees them through the symlinks.
