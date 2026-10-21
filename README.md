@@ -1,6 +1,6 @@
 # Top design skills, one brief
 
-A controlled comparison of five well-known “design taste” skills for coding agents. Every contestant gets its own git worktree, the same brief, the same copy, the same photos, and the same static HTML/CSS/JS constraint. Only the skill differs.
+A controlled comparison of five well-known “design taste” skills for coding agents. Every contestant got its own git worktree, the same brief, the same copy, the same photos, and the same static HTML/CSS/JS constraint. Only the skill differed.
 
 ## The brief
 
@@ -16,7 +16,7 @@ A controlled comparison of five well-known “design taste” skills for coding 
 | Emil Kowalski | `emilkowalski/skills` (`emil-design-eng`, `animate`, `review-animations`) | `skill/emil-kowalski` |
 | Taste | `Leonxlnx/taste-skill` (`design-taste-frontend`, v2) | `skill/taste` |
 
-Each worktree installs its skill in `.agents/skills/` (project scope) using the skill’s own installer where one exists.
+Each worktree installs its skill in `.opencode/skills/` (project scope) using the skill’s own installer where one exists. Exact versions and commands are in [`INSTALLS.md`](INSTALLS.md).
 
 ## Why this project
 
@@ -31,19 +31,49 @@ A pure landing page would favor the art-direction skills; a pure app screen woul
 
 Full write-up: [`COMPARISON.md`](COMPARISON.md).
 
-| Rank | Skill | Total /100 |
-|---|---|---:|
-| 1 | Anthropic frontend-design | 89.5 |
-| 2= | Emil Kowalski | 87.0 |
-| 2= | Impeccable | 87.0 |
-| 4 | UI UX Pro Max | 82.5 |
-| 5 | Taste v2 | 79.5 |
+### Desktop first impressions
+
+![Five desktop first impressions](evidence/contact-sheet-folds.jpg)
+
+Top row: Anthropic frontend-design, Impeccable, UI UX Pro Max. Bottom row: Emil Kowalski, Taste v2.
+
+| Rank | Skill | Total /100 | Direction |
+|---|---|---:|---|
+| 1 | **Anthropic frontend-design** | **89.5** | Foster-home field guide |
+| 2= | **Emil Kowalski** | **87.0** | Field guide on a foster family’s fridge |
+| 2= | **Impeccable** | **87.0** | Neighborhood repertory house |
+| 4 | **UI UX Pro Max** | **82.5** | Warm Swiss rescue bulletin |
+| 5 | **Taste v2** | **79.5** | Uneven print wall |
 
 The top three are one tier. Anthropic wins on restraint, accessibility, and low production risk; Impeccable has the biggest idea; Emil has the best interaction craft. Taste has the cleanest anti-slop record but the weakest conventional UX. UI UX Pro Max is the most systematic and the least distinctive.
 
-## Viewing the results
+### Mobile first impressions
 
-Each worktree produces:
+![Five mobile first impressions](evidence/contact-sheet-mobile.jpg)
+
+### Puppy detail views
+
+![Five puppy detail views](evidence/contact-sheet-details.jpg)
+
+### Full pages
+
+[Open the full-page contact sheet](evidence/contact-sheet-full.jpg) to compare complete page lengths and section rhythm.
+
+### Per-skill evidence
+
+| Skill | Desktop | Mobile | Detail | Automated checks |
+|---|---|---|---|---|
+| Anthropic frontend-design | [Desktop](evidence/frontend-design/desktop-full.png) | [Mobile](evidence/frontend-design/mobile-full.png) | [Detail](evidence/frontend-design/detail.png) | [Report](evidence/frontend-design/report.json) |
+| Impeccable | [Desktop](evidence/impeccable/desktop-full.png) | [Mobile](evidence/impeccable/mobile-full.png) | [Detail](evidence/impeccable/detail.png) | [Report](evidence/impeccable/report.json) |
+| UI UX Pro Max | [Desktop](evidence/ui-ux-pro-max/desktop-full.png) | [Mobile](evidence/ui-ux-pro-max/mobile-full.png) | [Detail](evidence/ui-ux-pro-max/detail.png) | [Report](evidence/ui-ux-pro-max/report.json) |
+| Emil Kowalski | [Desktop](evidence/emil-kowalski/desktop-full.png) | [Mobile](evidence/emil-kowalski/mobile-full.png) | [Detail](evidence/emil-kowalski/detail.png) | [Report](evidence/emil-kowalski/report.json) |
+| Taste v2 | [Desktop](evidence/taste/desktop-full.png) | [Mobile](evidence/taste/mobile-full.png) | [Detail](evidence/taste/detail.png) | [Report](evidence/taste/report.json) |
+
+The independent blind review is in [`evidence/blind-scores.md`](evidence/blind-scores.md). All screenshots and detector output are under [`evidence/`](evidence/).
+
+## Viewing a result
+
+Each skill branch contains:
 
 ```
 site/index.html
@@ -52,23 +82,28 @@ site/script.js
 NOTES.md
 ```
 
-From a worktree root:
+To preview one from a clone, check out its branch and serve the **repository root** (the photos live in `assets/`, outside `site/`):
 
 ```bash
-python3 -m http.server 4173 --directory site
-# open http://localhost:4173
+git clone https://github.com/jimmerioles/second-chance-paws.git
+cd second-chance-paws
+git checkout skill/frontend-design
+python3 -m http.server 4173
+# open http://localhost:4173/site/
 ```
 
-Or open `site/index.html` directly.
+You can also open `site/index.html` directly in a browser.
 
 ## Evaluation
 
-See [`RUBRIC.md`](RUBRIC.md). The blind review is in [`evidence/blind-scores.md`](evidence/blind-scores.md); screenshots, automated checks, and detector output are under `evidence/`. The comparison and per-skill analysis are in [`COMPARISON.md`](COMPARISON.md).
+See [`RUBRIC.md`](RUBRIC.md). The result combines a blind design review (seven weighted criteria, scored from anonymized screenshots), axe-core checks, Impeccable’s 61-rule detector, interaction checks, and separate code-quality and skill-fidelity scores.
+
+Full-page screenshots are captured with `prefers-reduced-motion: reduce` so scroll-reveal pages show their finished state; the desktop and mobile folds are captured with normal motion.
 
 ## Fairness rules
 
 - Same brief, copy, and photos in every worktree.
 - Same stack and deliverable paths.
 - Same technical test hooks (`data-filter`, `data-puppy`, `[role="dialog"]`, etc.).
-- No skill is edited to make it easier to follow. Installed versions are recorded in `INSTALLS.md`.
+- No skill is edited to make it easier to follow. Installed versions are recorded in [`INSTALLS.md`](INSTALLS.md).
 - Reviews are scored blind: screenshots are anonymized before scoring, then mapped back to skills.
