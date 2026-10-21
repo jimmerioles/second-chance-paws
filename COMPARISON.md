@@ -27,7 +27,7 @@ The full-page contact sheet makes the biggest structural difference obvious: Tas
 ## How the comparison was run
 
 - Five Herdr workspaces, one git worktree each, branches `skill/frontend-design`, `skill/impeccable`, `skill/ui-ux-pro-max`, `skill/emil-kowalski`, `skill/taste`.
-- Each skill installed at project scope in `.opencode/skills/` using its own installer or canonical folder. Versions and commands are in [`INSTALLS.md`](INSTALLS.md).
+- Each skill installed at project scope in the cross-agent `.agents/skills/` directory using its own installer or canonical folder. Versions and installation notes are in [`INSTALLS.md`](INSTALLS.md).
 - Each agent was told to use only its assigned skill, read [`BRIEF.md`](BRIEF.md), build `site/index.html`, `site/styles.css`, `site/script.js`, self-review at 1440/768/390, verify the interactions, and document its process in `NOTES.md`.
 - The same assets, copy, technical test hooks, and responsive/accessibility requirements applied to every run.
 - Automated checks: headless Chromium at 1440×900 and 390×844; axe-core WCAG 2.1 A/AA on the initial page and open dialog; Impeccable’s 61-rule detector with project config, `DESIGN.md`, and inline ignores disabled; filter/dialog/newsletter interaction checks; console and overflow checks.

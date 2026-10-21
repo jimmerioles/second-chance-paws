@@ -4,7 +4,8 @@ set -euo pipefail
 BASE="$(cd "$(dirname "$0")/.." && pwd)"
 EVIDENCE="$BASE/evidence"
 BLIND="$EVIDENCE/blind"
-MAP="/tmp/opencode/blind-map.json"
+MAP="${TMPDIR:-/tmp}/design-skill-comparison/blind-map.json"
+mkdir -p "$(dirname "$MAP")"
 
 rm -rf "$BLIND"/A "$BLIND"/B "$BLIND"/C "$BLIND"/D "$BLIND"/E
 mkdir -p "$BLIND"
